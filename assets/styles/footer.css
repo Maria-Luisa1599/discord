@@ -1,0 +1,13 @@
+footer{
+    grid-area: footer;
+    background: #23272A;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.div-f img{
+    width: 230px;
+    height: 63px;
+    
+}
