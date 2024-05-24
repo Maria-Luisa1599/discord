@@ -82,3 +82,90 @@ header p {
     width: 281px;
     height: 44px;   
 }
+
+@media screen and (max-width: 576px) {
+    header {
+        background-image: url("../images/header-img.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 576px;
+        height: 506px;
+        /* position: relative;
+        left: -150px; */
+    }
+    
+    
+    .div-header{
+        max-width: 428px;
+        max-height: 366px;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        gap: 24px;
+        padding-right: 24px;
+
+    }
+    
+    header h1 {
+        font-family: Luckiest Guy;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 278px;
+        height: 64px;
+        text-align: left;
+        color: white;
+    }
+    
+    header p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.79px;
+        text-align: left;
+        max-width: 381px;
+        max-height: 132px;
+        color: white;
+    }
+    
+    #buttons{
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans", sans-serif;
+        gap: 16px;
+        width: 381px;
+        height: 122px;
+    
+    }
+    
+    #buttons #button1{
+        background-color:white;
+        color:#23272A;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.79px;
+        text-align: center;
+        border-radius: 28px;
+        padding: 0 8px;
+        width: 381px;
+        height: 54px;
+        
+    }
+    
+    #buttons #button2{
+        background-color:#23272A;
+        color:white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.79px;
+        text-align: center;
+        border-radius: 28px;
+        padding: 0 8px;
+        width: 381px;
+        height: 52px;   
+    }
+    
+}

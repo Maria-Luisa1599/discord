@@ -11,3 +11,16 @@ footer{
     height: 63px;
     
 }
+
+@media screen and (max-width: 576px) {
+
+    footer{
+        width: 576px;
+        height: 140px;
+    }
+
+    .div-f img{
+        width: 162px;
+        height: 45px;
+    }
+}
