@@ -1,26 +1,29 @@
-footer{
+footer {
+    height: 140px;
     grid-area: footer;
     background: #23272A;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
-.div-f img{
-    width: 230px;
-    height: 63px;
-    
+.div-f img {
+    width: 162px;
+    height: 45px;
 }
 
-@media screen and (max-width: 576px) {
-
-    footer{
-        width: 576px;
-        height: 140px;
+@media screen and (min-width: 768px) {
+    footer {
+        background: #23272A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .div-f img{
-        width: 162px;
-        height: 45px;
+    .div-f img {
+        width: 230px;
+        height: 63px;
+
     }
+
 }
